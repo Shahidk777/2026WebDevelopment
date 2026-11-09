@@ -38,5 +38,19 @@ body {
 /* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
                  apply some other type of styling.
 */
+#secondGallery img {
+    opacity : 0.1;
+}
+
+#secondGallery img:hover{
+    opacity: 1.0;
+}
 
 /* Challenge 14: Change the transition for all elements to 1 second */
+* {
+  transition: 1s;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

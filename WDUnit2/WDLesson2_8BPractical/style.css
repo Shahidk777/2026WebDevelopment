@@ -21,27 +21,33 @@
   }
 
   #nav a {
-   flex: 2;
+   flex: 10;
    padding: 12px;
    justify-content: space-around;
    background-color: green;
    color: white;
   }
 
- #left {
-   flex: 2;
+ #left a {
+   flex: 150px 0 0;
    color: black;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+
  }
 
- #middle{
-   flex:3;
+ #middle {
+   flex:2;
+   padding: 30px;
  }
 
  #right {
-   flex:3;
+   flex:2;
+   padding: 10px;
  }
 
-  #footer {
+  #footer p {
    flex: 1;
    text-align: center;
    background-color: green;
